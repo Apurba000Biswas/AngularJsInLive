@@ -80,3 +80,11 @@ Lets See an Example
 Data binding is a very useful and powerful feature used in software development technologies. It acts as a bridge between the view and business logic of the application.
 
 AngularJS follows Two-Way data binding model.
+
+#### One way binding:
+
+The one-way data binding is an approach where a value is taken from the data model and inserted into an HTML element. There is no way to update model from view. These systems bind data in only one direction
+
+#### Two way binding:
+
+Data-binding in Angular apps is the automatic synchronization of data between the model and view components.
