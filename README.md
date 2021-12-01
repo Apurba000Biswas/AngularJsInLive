@@ -21,13 +21,13 @@ It is responsible to control the relation between models and views. It responds 
 There are two Requirements to add angularjs in a web page.
 
 1. Add a <script> tag pointing to angular.js
- <script src="angular.js"></script>
-
+    <script src="angular.js"></script>
 2. Add an ng-app attribute somewhere in your HTML.
+ ```
  <div ng-app>
  	This area controlled by Angular!
  </div>
-
+```
 
  ```
  <DOCTYPE.!DOCTYPE html>
