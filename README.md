@@ -3,14 +3,16 @@
 AngularJs started as a project inside Google. Its now open source project. 
 
 
-## MVC Software Design Patterns:
+### MVC Software Design Patterns:
 MVC stands for Model View Controller.
 
-Model :  It is responsible for managing application data. It responds to the requests from view and to the instructions from controller to update itself.
+##### Model :  
+It is responsible for managing application data. It responds to the requests from view and to the instructions from controller to update itself.
 
-View : It is responsible for displaying all data or only a portion of data to the users. It also specifies the data in a particular format triggered by the controller's decision to present the data
+##### View : 
+It is responsible for displaying all data or only a portion of data to the users. It also specifies the data in a particular format triggered by the controller's decision to present the data
 
-Controller : 
+##### Controller : 
 It is responsible to control the relation between models and views. It responds to user input and performs interactions on the data model objects. The controller receives input, validates it, and then performs business operations that modify the state of the data model. 
 
 
@@ -21,13 +23,15 @@ It is responsible to control the relation between models and views. It responds 
 There are two Requirements to add angularjs in a web page.
 
 1. Add a <script> tag pointing to angular.js
-    <script src="angular.js"></script>
+  <script src="angular.js"></script>
 2. Add an ng-app attribute somewhere in your HTML.
- ```
+```
  <div ng-app>
  	This area controlled by Angular!
  </div>
 ```
+
+Lets See an Example
 
  ```
  <DOCTYPE.!DOCTYPE html>
@@ -70,3 +74,9 @@ There are two Requirements to add angularjs in a web page.
         } );
     </script>
 
+
+
+### Angular Data Binding :
+Data binding is a very useful and powerful feature used in software development technologies. It acts as a bridge between the view and business logic of the application.
+
+AngularJS follows Two-Way data binding model.
